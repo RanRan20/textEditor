@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Text Editor</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="container">
+
+<h1 class="title"><span>E</span>ditz</h1>
+
+<main>
+	
+	<div class="editor">
+
+
+	<div class="config">
+
+		<section class="file">
+
+			<nav class="edit-menu">
+
+				<button aria-label="Save" id="btnS"><i class="fa-regular fa-floppy-disk"></i></button>
+
+    			<button aria-label="Upload" id="btnU"><i class="fa-solid fa-upload"></i></button>
+			</nav>
+        </section>
+
+			<section class="align">
+
+			<nav class="edit-menu">
+
+				<button aria-label="AlignLeft" id="alignL"><i class="fa-solid fa-align-left"></i></button>
+
+				<button aria-label=AlignCenter id="alignC"><i class="fa-solid fa-align-center"></i></button>
+
+				<button aria-label=AlignRight id="alignR"><i class="fa-solid fa-align-right"></i></button>
+
+    			
+			</nav>
+
+				
+			</section>
+            
+            <section class="text">
+            
+        <select class="font" >
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+        </select>
+
+
+
+         
+        <select>
+            <option value="12px">12px</option>
+            <option value="14px">14px</option>
+           
+        </select>
+
+        <input type="color" id="color-select">
+
+            </section>
+
+
+         
+
+			</div>
+
+		
+		<section class="textarea">
+    		<textarea class="textarea" name="texta"></textarea>
+		</section>
+
+
+
+	</div>
+
+</main>
+
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
